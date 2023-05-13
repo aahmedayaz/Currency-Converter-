@@ -49,10 +49,10 @@ let generateList2 = async () => {
                 'X-RapidAPI-Host': 'currency-conversion-and-exchange-rates.p.rapidapi.com'
             }
         });
-        
-        
+          
         let data = await response.json();
         let dataObject = data.symbols;
+        console.log(dataObject);
         keys = Object.keys(dataObject); // We will compare this Array with Countryinfo Array iso-codes
         let values = Object.values(dataObject);
         // Object.values() and Object.keys() returns an Array

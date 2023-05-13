@@ -14,508 +14,514 @@
                 <h1 class="main-heading">Currency Converter</h1>
             </div>
             <div class="middle-div">
-                <div class="left">
-                    <h3 class="left-heading">Amount</h3>
+                <div class="middle-upper">
+                    <h3 class="middle-upper-heading">Amount :  </h3>
                     <input id="source-amount" type="number" placeholder="Type Amount Here">
                 </div>
-                <div class="middle">
-                    <h3 class="middle-heading">From</h3>
-                    <select name="source-list" id="source-list">
-                        <option value = "AFN" data-isoCode = "AFG">AFN - Afghanistan</option>
-                        <option value = "ALL" data-isoCode = "ALB">ALL - Albania</option>
-                        <option value = "DZD" data-isoCode = "DZA">DZD - Algeria</option>
-                        <option value = "USD" data-isoCode = "ASM">USD - American Samoa</option>
-                        <option value = "EUR" data-isoCode = "AND">EUR - Andorra</option>
-                        <option value = "AOA" data-isoCode = "AGO">AOA - Angola</option>
-                        <option value = "XCD" data-isoCode = "AIA">XCD - Anguilla</option>
-                        <option value = "XCD" data-isoCode = "ATG">XCD - Antigua and Barbuda</option>
-                        <option value = "ARS" data-isoCode = "ARG">ARS - Argentina</option>
-                        <option value = "AMD" data-isoCode = "ARM">AMD - Armenia</option>
-                        <option value = "AWG" data-isoCode = "ABW">AWG - Aruba</option>
-                        <option value = "AUD" data-isoCode = "AUS">AUD - Australia</option>
-                        <option value = "EUR" data-isoCode = "AUT">EUR - Austria</option>
-                        <option value = "AZN" data-isoCode = "AZE">AZN - Azerbaijan</option>
-                        <option value = "BSD" data-isoCode = "BHS">BSD - Bahamas</option>
-                        <option value = "BHD" data-isoCode = "BHR">BHD - Bahrain</option>
-                        <option value = "BDT" data-isoCode = "BGD">BDT - Bangladesh</option>
-                        <option value = "BBD" data-isoCode = "BRB">BBD - Barbados</option>
-                        <option value = "BYN" data-isoCode = "BLR">BYN - Belarus</option>
-                        <option value = "EUR" data-isoCode = "BEL">EUR - Belgium</option>
-                        <option value = "BZD" data-isoCode = "BLZ">BZD - Belize</option>
-                        <option value = "XOF" data-isoCode = "BEN">XOF - Benin</option>
-                        <option value = "BMD" data-isoCode = "BMU">BMD - Bermuda</option>
-                        <option value = "BTN" data-isoCode = "BTN">BTN - Bhutan</option>
-                        <option value = "BOB" data-isoCode = "BOL">BOB - Bolivia</option>
-                        <option value = "BAM" data-isoCode = "BIH">BAM - Bosnia and Herzegovina</option>
-                        <option value = "BWP" data-isoCode = "BWA">BWP - Botswana</option>
-                        <option value = "BRL" data-isoCode = "BRA">BRL - Brazil</option>
-                        <option value = "USD" data-isoCode = "IOT">USD - British Indian Ocean Territory</option>
-                        <option value = "USD" data-isoCode = "VGB">USD - British Virgin Islands</option>
-                        <option value = "BND" data-isoCode = "BRN">BND - Brunei</option>
-                        <option value = "BGN" data-isoCode = "BGR">BGN - Bulgaria</option>
-                        <option value = "XOF" data-isoCode = "BFA">XOF - Burkina Faso</option>
-                        <option value = "BIF" data-isoCode = "BDI">BIF - Burundi</option>
-                        <option value = "KHR" data-isoCode = "KHM">KHR - Cambodia</option>
-                        <option value = "XAF" data-isoCode = "CMR">XAF - Cameroon</option>
-                        <option value = "CAD" data-isoCode = "CAN">CAD - Canada</option>
-                        <option value = "CVE" data-isoCode = "CPV">CVE - Cape Verde</option>
-                        <option value = "KYD" data-isoCode = "CYM">KYD - Cayman Islands</option>
-                        <option value = "XAF" data-isoCode = "CAF">XAF - Central African Republic</option>
-                        <option value = "XAF" data-isoCode = "TCD">XAF - Chad</option>
-                        <option value = "CLP" data-isoCode = "CHL">CLP - Chile</option>
-                        <option value = "CNY" data-isoCode = "CHN">CNY - China</option>
-                        <option value = "AUD" data-isoCode = "CXR">AUD - Christmas Island</option>
-                        <option value = "AUD" data-isoCode = "CCK">AUD - Cocos Islands</option>
-                        <option value = "COP" data-isoCode = "COL">COP - Colombia</option>
-                        <option value = "KMF" data-isoCode = "COM">KMF - Comoros</option>
-                        <option value = "NZD" data-isoCode = "COK">NZD - Cook Islands</option>
-                        <option value = "CRC" data-isoCode = "CRI">CRC - Costa Rica</option>
-                        <option value = "HRK" data-isoCode = "HRV">HRK - Croatia</option>
-                        <option value = "CUC" data-isoCode = "CUB">CUC - Cuba</option>
-                        <option value = "ANG" data-isoCode = "CUW">ANG - Curacao</option>
-                        <option value = "EUR" data-isoCode = "CYP">EUR - Cyprus</option>
-                        <option value = "CZK" data-isoCode = "CZE">CZK - Czech Republic</option>
-                        <option value = "CDF" data-isoCode = "COD">CDF - Democratic Republic of the Congo</option>
-                        <option value = "DKK" data-isoCode = "DNK">DKK - Denmark</option>
-                        <option value = "DJF" data-isoCode = "DJI">DJF - Djibouti</option>
-                        <option value = "XCD" data-isoCode = "DMA">XCD - Dominica</option>
-                        <option value = "DOP" data-isoCode = "DOM">DOP - Dominican Republic</option>
-                        <option value = "USD" data-isoCode = "TLS">USD - East Timor</option>
-                        <option value = "USD" data-isoCode = "ECU">USD - Ecuador</option>
-                        <option value = "EGP" data-isoCode = "EGY">EGP - Egypt</option>
-                        <option value = "SVC" data-isoCode = "SLV">SVC - El Salvador</option>
-                        <option value = "XAF" data-isoCode = "GNQ">XAF - Equatorial Guinea</option>
-                        <option value = "ERN" data-isoCode = "ERI">ERN - Eritrea</option>
-                        <option value = "ETB" data-isoCode = "ETH">ETB - Ethiopia</option>
-                        <option value = "FKP" data-isoCode = "FLK">FKP - Falkland Islands</option>
-                        <option value = "DKK" data-isoCode = "FRO">DKK - Faroe Islands</option>
-                        <option value = "FJD" data-isoCode = "FJI">FJD - Fiji</option>
-                        <option value = "EUR" data-isoCode = "FIN">EUR - Finland</option>
-                        <option value = "EUR" data-isoCode = "FRA">EUR - France</option>
-                        <option value = "XPF" data-isoCode = "PYF">XPF - French Polynesia</option>
-                        <option value = "XAF" data-isoCode = "GAB">XAF - Gabon</option>
-                        <option value = "GMD" data-isoCode = "GMB">GMD - Gambia</option>
-                        <option value = "GEL" data-isoCode = "GEO">GEL - Georgia</option>
-                        <option value = "EUR" data-isoCode = "DEU">EUR - Germany</option>
-                        <option value = "GHS" data-isoCode = "GHA">GHS - Ghana</option>
-                        <option value = "GIP" data-isoCode = "GIB">GIP - Gibraltar</option>
-                        <option value = "EUR" data-isoCode = "GRC">EUR - Greece</option>
-                        <option value = "DKK" data-isoCode = "GRL">DKK - Greenland</option>
-                        <option value = "XCD" data-isoCode = "GRD">XCD - Grenada</option>
-                        <option value = "USD" data-isoCode = "GUM">USD - Guam</option>
-                        <option value = "GTQ" data-isoCode = "GTM">GTQ - Guatemala</option>
-                        <option value = "GBP" data-isoCode = "GGY">GBP - Guernsey</option>
-                        <option value = "GNF" data-isoCode = "GIN">GNF - Guinea</option>
-                        <option value = "XOF" data-isoCode = "GNB">XOF - Guinea-Bissau</option>
-                        <option value = "GYD" data-isoCode = "GUY">GYD - Guyana</option>
-                        <option value = "HTG" data-isoCode = "HTI">HTG - Haiti</option>
-                        <option value = "HNL" data-isoCode = "HND">HNL - Honduras</option>
-                        <option value = "HKD" data-isoCode = "HKG">HKD - Hong Kong</option>
-                        <option value = "HUF" data-isoCode = "HUN">HUF - Hungary</option>
-                        <option value = "ISK" data-isoCode = "ISL">ISK - Iceland</option>
-                        <option value = "INR" data-isoCode = "IND">INR - India</option>
-                        <option value = "IDR" data-isoCode = "IDN">IDR - Indonesia</option>
-                        <option value = "IRR" data-isoCode = "IRN">IRR - Iran</option>
-                        <option value = "IQD" data-isoCode = "IRQ">IQD - Iraq</option>
-                        <option value = "EUR" data-isoCode = "IRL">EUR - Ireland</option>
-                        <option value = "GBP" data-isoCode = "IMN">GBP - Isle of Man</option>
-                        <option value = "ILS" data-isoCode = "ISR">ILS - Israel</option>
-                        <option value = "EUR" data-isoCode = "ITA">EUR - Italy</option>
-                        <option value = "XOF" data-isoCode = "CIV">XOF - Ivory Coast</option>
-                        <option value = "JMD" data-isoCode = "JAM">JMD - Jamaica</option>
-                        <option value = "JPY" data-isoCode = "JPN">JPY - Japan</option>
-                        <option value = "GBP" data-isoCode = "JEY">GBP - Jersey</option>
-                        <option value = "JOD" data-isoCode = "JOR">JOD - Jordan</option>
-                        <option value = "KZT" data-isoCode = "KAZ">KZT - Kazakhstan</option>
-                        <option value = "KES" data-isoCode = "KEN">KES - Kenya</option>
-                        <option value = "AUD" data-isoCode = "KIR">AUD - Kiribati</option>
-                        <option value = "EUR" data-isoCode = "XKX">EUR - Kosovo</option>
-                        <option value = "KWD" data-isoCode = "KWT">KWD - Kuwait</option>
-                        <option value = "KGS" data-isoCode = "KGZ">KGS - Kyrgyzstan</option>
-                        <option value = "LAK" data-isoCode = "LAO">LAK - Laos</option>
-                        <option value = "LVL" data-isoCode = "LVA">LVL - Latvia</option>
-                        <option value = "LBP" data-isoCode = "LBN">LBP - Lebanon</option>
-                        <option value = "LSL" data-isoCode = "LSO">LSL - Lesotho</option>
-                        <option value = "LRD" data-isoCode = "LBR">LRD - Liberia</option>
-                        <option value = "LYD" data-isoCode = "LBY">LYD - Libya</option>
-                        <option value = "CHF" data-isoCode = "LIE">CHF - Liechtenstein</option>
-                        <option value = "LTL" data-isoCode = "LTU">LTL - Lithuania</option>
-                        <option value = "EUR" data-isoCode = "LUX">EUR - Luxembourg</option>
-                        <option value = "MOP" data-isoCode = "MAC">MOP - Macau</option>
-                        <option value = "MKD" data-isoCode = "MKD">MKD - Macedonia</option>
-                        <option value = "MGA" data-isoCode = "MDG">MGA - Madagascar</option>
-                        <option value = "MWK" data-isoCode = "MWI">MWK - Malawi</option>
-                        <option value = "MYR" data-isoCode = "MYS">MYR - Malaysia</option>
-                        <option value = "MVR" data-isoCode = "MDV">MVR - Maldives</option>
-                        <option value = "XOF" data-isoCode = "MLI">XOF - Mali</option>
-                        <option value = "EUR" data-isoCode = "MLT">EUR - Malta</option>
-                        <option value = "USD" data-isoCode = "MHL">USD - Marshall Islands</option>
-                        <option value = "MRO" data-isoCode = "MRT">MRO - Mauritania</option>
-                        <option value = "MUR" data-isoCode = "MUS">MUR - Mauritius</option>
-                        <option value = "EUR" data-isoCode = "MYT">EUR - Mayotte</option>
-                        <option value = "MXN" data-isoCode = "MEX">MXN - Mexico</option>
-                        <option value = "USD" data-isoCode = "FSM">USD - Micronesia</option>
-                        <option value = "MDL" data-isoCode = "MDA">MDL - Moldova</option>
-                        <option value = "EUR" data-isoCode = "MCO">EUR - Monaco</option>
-                        <option value = "MNT" data-isoCode = "MNG">MNT - Mongolia</option>
-                        <option value = "EUR" data-isoCode = "MNE">EUR - Montenegro</option>
-                        <option value = "XCD" data-isoCode = "MSR">XCD - Montserrat</option>
-                        <option value = "MAD" data-isoCode = "MAR">MAD - Morocco</option>
-                        <option value = "MZN" data-isoCode = "MOZ">MZN - Mozambique</option>
-                        <option value = "MMK" data-isoCode = "MMR">MMK - Myanmar</option>
-                        <option value = "NAD" data-isoCode = "NAM">NAD - Namibia</option>
-                        <option value = "AUD" data-isoCode = "NRU">AUD - Nauru</option>
-                        <option value = "NPR" data-isoCode = "NPL">NPR - Nepal</option>
-                        <option value = "EUR" data-isoCode = "NLD">EUR - Netherlands</option>
-                        <option value = "ANG" data-isoCode = "ANT">ANG - Netherlands Antilles  Guilder</option>
-                        <option value = "XPF" data-isoCode = "NCL">XPF - New Caledonia</option>
-                        <option value = "NZD" data-isoCode = "NZL">NZD - New Zealand</option>
-                        <option value = "NIO" data-isoCode = "NIC">NIO - Nicaragua</option>
-                        <option value = "XOF" data-isoCode = "NER">XOF - Niger</option>
-                        <option value = "NGN" data-isoCode = "NGA">NGN - Nigeria</option>
-                        <option value = "NZD" data-isoCode = "NIU">NZD - Niue</option>
-                        <option value = "KPW" data-isoCode = "PRK">KPW - North Korea</option>
-                        <option value = "USD" data-isoCode = "MNP">USD - Northern Mariana Islands</option>
-                        <option value = "NOK" data-isoCode = "NOR">NOK - Norway</option>
-                        <option value = "OMR" data-isoCode = "OMN">OMR - Oman</option>
-                        <option value = "PKR" data-isoCode = "PAK">PKR - Pakistan</option>
-                        <option value = "USD" data-isoCode = "PLW">USD - Palau</option>
-                        <option value = "PAB" data-isoCode = "PAN">PAB - Panama</option>
-                        <option value = "PGK" data-isoCode = "PNG">PGK - Papua New Guinea</option>
-                        <option value = "PYG" data-isoCode = "PRY">PYG - Paraguay</option>
-                        <option value = "PEN" data-isoCode = "PER">PEN - Peru</option>
-                        <option value = "PHP" data-isoCode = "PHL">PHP - Philippines</option>
-                        <option value = "NZD" data-isoCode = "PCN">NZD - Pitcairn</option>
-                        <option value = "PLN" data-isoCode = "POL">PLN - Poland</option>
-                        <option value = "EUR" data-isoCode = "PRT">EUR - Portugal</option>
-                        <option value = "USD" data-isoCode = "PRI">USD - Puerto Rico</option>
-                        <option value = "QAR" data-isoCode = "QAT">QAR - Qatar</option>
-                        <option value = "XAF" data-isoCode = "COG">XAF - Republic of the Congo</option>
-                        <option value = "EUR" data-isoCode = "REU">EUR - Reunion</option>
-                        <option value = "RON" data-isoCode = "ROU">RON - Romania</option>
-                        <option value = "RUB" data-isoCode = "RUS">RUB - Russia</option>
-                        <option value = "RWF" data-isoCode = "RWA">RWF - Rwanda</option>
-                        <option value = "EUR" data-isoCode = "BLM">EUR - Saint Barthelemy</option>
-                        <option value = "SHP" data-isoCode = "SHN">SHP - Saint Helena</option>
-                        <option value = "XCD" data-isoCode = "KNA">XCD - Saint Kitts and Nevis</option>
-                        <option value = "XCD" data-isoCode = "LCA">XCD - Saint Lucia</option>
-                        <option value = "EUR" data-isoCode = "MAF">EUR - Saint Martin</option>
-                        <option value = "EUR" data-isoCode = "SPM">EUR - Saint Pierre and Miquelon</option>
-                        <option value = "XCD" data-isoCode = "VCT">XCD - Saint Vincent and the Grenadines</option>
-                        <option value = "WST" data-isoCode = "WSM">WST - Samoa</option>
-                        <option value = "EUR" data-isoCode = "SMR">EUR - San Marino</option>
-                        <option value = "STD" data-isoCode = "STP">STD - Sao Tome and Principe</option>
-                        <option value = "SAR" data-isoCode = "SAU">SAR - Saudi Arabia</option>
-                        <option value = "XOF" data-isoCode = "SEN">XOF - Senegal</option>
-                        <option value = "RSD" data-isoCode = "SRB">RSD - Serbia</option>
-                        <option value = "SCR" data-isoCode = "SYC">SCR - Seychelles</option>
-                        <option value = "SLL" data-isoCode = "SLE">SLL - Sierra Leone</option>
-                        <option value = "SGD" data-isoCode = "SGP">SGD - Singapore</option>
-                        <option value = "ANG" data-isoCode = "SXM">ANG - Sint Maarten</option>
-                        <option value = "EUR" data-isoCode = "SVK">EUR - Slovakia</option>
-                        <option value = "EUR" data-isoCode = "SVN">EUR - Slovenia</option>
-                        <option value = "SBD" data-isoCode = "SLB">SBD - Solomon Islands</option>
-                        <option value = "SOS" data-isoCode = "SOM">SOS - Somalia</option>
-                        <option value = "ZAR" data-isoCode = "ZAF">ZAR - South Africa</option>
-                        <option value = "KRW" data-isoCode = "KOR">KRW - South Korea</option>
-                        <option value = "EUR" data-isoCode = "ESP">EUR - Spain</option>
-                        <option value = "LKR" data-isoCode = "LKA">LKR - Sri Lanka</option>
-                        <option value = "SDG" data-isoCode = "SDN">SDG - Sudan</option>
-                        <option value = "SRD" data-isoCode = "SUR">SRD - Suriname</option>
-                        <option value = "NOK" data-isoCode = "SJM">NOK - Svalbard and Jan Mayen</option>
-                        <option value = "SZL" data-isoCode = "SWZ">SZL - Swaziland</option>
-                        <option value = "SEK" data-isoCode = "SWE">SEK - Sweden</option>
-                        <option value = "CHF" data-isoCode = "CHE">CHF - Switzerland</option>
-                        <option value = "SYP" data-isoCode = "SYR">SYP - Syria</option>
-                        <option value = "TWD" data-isoCode = "TWN">TWD - Taiwan</option>
-                        <option value = "TJS" data-isoCode = "TJK">TJS - Tajikistan</option>
-                        <option value = "TZS" data-isoCode = "TZA">TZS - Tanzania</option>
-                        <option value = "THB" data-isoCode = "THA">THB - Thailand</option>
-                        <option value = "XOF" data-isoCode = "TGO">XOF - Togo</option>
-                        <option value = "NZD" data-isoCode = "TKL">NZD - Tokelau</option>
-                        <option value = "TOP" data-isoCode = "TON">TOP - Tonga</option>
-                        <option value = "TTD" data-isoCode = "TTO">TTD - Trinidad and Tobago</option>
-                        <option value = "TND" data-isoCode = "TUN">TND - Tunisia</option>
-                        <option value = "TRY" data-isoCode = "TUR">TRY - Turkey</option>
-                        <option value = "TMT" data-isoCode = "TKM">TMT - Turkmenistan</option>
-                        <option value = "USD" data-isoCode = "TCA">USD - Turks and Caicos Islands</option>
-                        <option value = "AUD" data-isoCode = "TUV">AUD - Tuvalu</option>
-                        <option value = "USD" data-isoCode = "VIR">USD - U.S. Virgin Islands</option>
-                        <option value = "UGX" data-isoCode = "UGA">UGX - Uganda</option>
-                        <option value = "UAH" data-isoCode = "UKR">UAH - Ukraine</option>
-                        <option value = "AED" data-isoCode = "ARE">AED - United Arab Emirates</option>
-                        <option value = "GBP" data-isoCode = "GBR">GBP - United Kingdom</option>
-                        <option value = "USD" data-isoCode = "USA" selected>USD - United States</option>
-                        <option value = "UYU" data-isoCode = "URY">UYU - Uruguay</option>
-                        <option value = "UZS" data-isoCode = "UZB">UZS - Uzbekistan</option>
-                        <option value = "VUV" data-isoCode = "VUT">VUV - Vanuatu</option>
-                        <option value = "EUR" data-isoCode = "VAT">EUR - Vatican City</option>
-                        <option value = "VEF" data-isoCode = "VEN">VEF - Venezuela</option>
-                        <option value = "VND" data-isoCode = "VNM">VND - Vietnam</option>
-                        <option value = "XPF" data-isoCode = "WLF">XPF - Wallis and Futuna</option>
-                        <option value = "MAD" data-isoCode = "ESH">MAD - Western Sahara</option>
-                        <option value = "YER" data-isoCode = "YEM">YER - Yemen</option>
-                        <option value = "ZMW" data-isoCode = "ZMB">ZMW - Zambia</option>
-                        <option value = "ZWL" data-isoCode = "ZWE">ZWL - Zimbabwe</option>
-
-                    </select>
-                </div>
-                <div class="extra">
+                <div class="middle" id="middle">
+                    <div class="left">
+                        <h3 class="left-heading">From</h3>
+                        <select name="source-list" id="source-list">
+                            <option value = "AFN" data-isoCode = "AFG">AFN - Afghanistan</option>
+                            <option value = "ALL" data-isoCode = "ALB">ALL - Albania</option>
+                            <option value = "DZD" data-isoCode = "DZA">DZD - Algeria</option>
+                            <option value = "USD" data-isoCode = "ASM">USD - American Samoa</option>
+                            <option value = "EUR" data-isoCode = "AND">EUR - Andorra</option>
+                            <option value = "AOA" data-isoCode = "AGO">AOA - Angola</option>
+                            <option value = "XCD" data-isoCode = "AIA">XCD - Anguilla</option>
+                            <option value = "XCD" data-isoCode = "ATG">XCD - Antigua and Barbuda</option>
+                            <option value = "ARS" data-isoCode = "ARG">ARS - Argentina</option>
+                            <option value = "AMD" data-isoCode = "ARM">AMD - Armenia</option>
+                            <option value = "AWG" data-isoCode = "ABW">AWG - Aruba</option>
+                            <option value = "AUD" data-isoCode = "AUS">AUD - Australia</option>
+                            <option value = "EUR" data-isoCode = "AUT">EUR - Austria</option>
+                            <option value = "AZN" data-isoCode = "AZE">AZN - Azerbaijan</option>
+                            <option value = "BSD" data-isoCode = "BHS">BSD - Bahamas</option>
+                            <option value = "BHD" data-isoCode = "BHR">BHD - Bahrain</option>
+                            <option value = "BDT" data-isoCode = "BGD">BDT - Bangladesh</option>
+                            <option value = "BBD" data-isoCode = "BRB">BBD - Barbados</option>
+                            <option value = "BYN" data-isoCode = "BLR">BYN - Belarus</option>
+                            <option value = "EUR" data-isoCode = "BEL">EUR - Belgium</option>
+                            <option value = "BZD" data-isoCode = "BLZ">BZD - Belize</option>
+                            <option value = "XOF" data-isoCode = "BEN">XOF - Benin</option>
+                            <option value = "BMD" data-isoCode = "BMU">BMD - Bermuda</option>
+                            <option value = "BTN" data-isoCode = "BTN">BTN - Bhutan</option>
+                            <option value = "BOB" data-isoCode = "BOL">BOB - Bolivia</option>
+                            <option value = "BAM" data-isoCode = "BIH">BAM - Bosnia and Herzegovina</option>
+                            <option value = "BWP" data-isoCode = "BWA">BWP - Botswana</option>
+                            <option value = "BRL" data-isoCode = "BRA">BRL - Brazil</option>
+                            <option value = "USD" data-isoCode = "IOT">USD - British Indian Ocean Territory</option>
+                            <option value = "USD" data-isoCode = "VGB">USD - British Virgin Islands</option>
+                            <option value = "BND" data-isoCode = "BRN">BND - Brunei</option>
+                            <option value = "BGN" data-isoCode = "BGR">BGN - Bulgaria</option>
+                            <option value = "XOF" data-isoCode = "BFA">XOF - Burkina Faso</option>
+                            <option value = "BIF" data-isoCode = "BDI">BIF - Burundi</option>
+                            <option value = "KHR" data-isoCode = "KHM">KHR - Cambodia</option>
+                            <option value = "XAF" data-isoCode = "CMR">XAF - Cameroon</option>
+                            <option value = "CAD" data-isoCode = "CAN">CAD - Canada</option>
+                            <option value = "CVE" data-isoCode = "CPV">CVE - Cape Verde</option>
+                            <option value = "KYD" data-isoCode = "CYM">KYD - Cayman Islands</option>
+                            <option value = "XAF" data-isoCode = "CAF">XAF - Central African Republic</option>
+                            <option value = "XAF" data-isoCode = "TCD">XAF - Chad</option>
+                            <option value = "CLP" data-isoCode = "CHL">CLP - Chile</option>
+                            <option value = "CNY" data-isoCode = "CHN">CNY - China</option>
+                            <option value = "AUD" data-isoCode = "CXR">AUD - Christmas Island</option>
+                            <option value = "AUD" data-isoCode = "CCK">AUD - Cocos Islands</option>
+                            <option value = "COP" data-isoCode = "COL">COP - Colombia</option>
+                            <option value = "KMF" data-isoCode = "COM">KMF - Comoros</option>
+                            <option value = "NZD" data-isoCode = "COK">NZD - Cook Islands</option>
+                            <option value = "CRC" data-isoCode = "CRI">CRC - Costa Rica</option>
+                            <option value = "HRK" data-isoCode = "HRV">HRK - Croatia</option>
+                            <option value = "CUC" data-isoCode = "CUB">CUC - Cuba</option>
+                            <option value = "ANG" data-isoCode = "CUW">ANG - Curacao</option>
+                            <option value = "EUR" data-isoCode = "CYP">EUR - Cyprus</option>
+                            <option value = "CZK" data-isoCode = "CZE">CZK - Czech Republic</option>
+                            <option value = "CDF" data-isoCode = "COD">CDF - Democratic Republic of the Congo</option>
+                            <option value = "DKK" data-isoCode = "DNK">DKK - Denmark</option>
+                            <option value = "DJF" data-isoCode = "DJI">DJF - Djibouti</option>
+                            <option value = "XCD" data-isoCode = "DMA">XCD - Dominica</option>
+                            <option value = "DOP" data-isoCode = "DOM">DOP - Dominican Republic</option>
+                            <option value = "USD" data-isoCode = "TLS">USD - East Timor</option>
+                            <option value = "USD" data-isoCode = "ECU">USD - Ecuador</option>
+                            <option value = "EGP" data-isoCode = "EGY">EGP - Egypt</option>
+                            <option value = "SVC" data-isoCode = "SLV">SVC - El Salvador</option>
+                            <option value = "XAF" data-isoCode = "GNQ">XAF - Equatorial Guinea</option>
+                            <option value = "ERN" data-isoCode = "ERI">ERN - Eritrea</option>
+                            <option value = "ETB" data-isoCode = "ETH">ETB - Ethiopia</option>
+                            <option value = "FKP" data-isoCode = "FLK">FKP - Falkland Islands</option>
+                            <option value = "DKK" data-isoCode = "FRO">DKK - Faroe Islands</option>
+                            <option value = "FJD" data-isoCode = "FJI">FJD - Fiji</option>
+                            <option value = "EUR" data-isoCode = "FIN">EUR - Finland</option>
+                            <option value = "EUR" data-isoCode = "FRA">EUR - France</option>
+                            <option value = "XPF" data-isoCode = "PYF">XPF - French Polynesia</option>
+                            <option value = "XAF" data-isoCode = "GAB">XAF - Gabon</option>
+                            <option value = "GMD" data-isoCode = "GMB">GMD - Gambia</option>
+                            <option value = "GEL" data-isoCode = "GEO">GEL - Georgia</option>
+                            <option value = "EUR" data-isoCode = "DEU">EUR - Germany</option>
+                            <option value = "GHS" data-isoCode = "GHA">GHS - Ghana</option>
+                            <option value = "GIP" data-isoCode = "GIB">GIP - Gibraltar</option>
+                            <option value = "EUR" data-isoCode = "GRC">EUR - Greece</option>
+                            <option value = "DKK" data-isoCode = "GRL">DKK - Greenland</option>
+                            <option value = "XCD" data-isoCode = "GRD">XCD - Grenada</option>
+                            <option value = "USD" data-isoCode = "GUM">USD - Guam</option>
+                            <option value = "GTQ" data-isoCode = "GTM">GTQ - Guatemala</option>
+                            <option value = "GBP" data-isoCode = "GGY">GBP - Guernsey</option>
+                            <option value = "GNF" data-isoCode = "GIN">GNF - Guinea</option>
+                            <option value = "XOF" data-isoCode = "GNB">XOF - Guinea-Bissau</option>
+                            <option value = "GYD" data-isoCode = "GUY">GYD - Guyana</option>
+                            <option value = "HTG" data-isoCode = "HTI">HTG - Haiti</option>
+                            <option value = "HNL" data-isoCode = "HND">HNL - Honduras</option>
+                            <option value = "HKD" data-isoCode = "HKG">HKD - Hong Kong</option>
+                            <option value = "HUF" data-isoCode = "HUN">HUF - Hungary</option>
+                            <option value = "ISK" data-isoCode = "ISL">ISK - Iceland</option>
+                            <option value = "INR" data-isoCode = "IND">INR - India</option>
+                            <option value = "IDR" data-isoCode = "IDN">IDR - Indonesia</option>
+                            <option value = "IRR" data-isoCode = "IRN">IRR - Iran</option>
+                            <option value = "IQD" data-isoCode = "IRQ">IQD - Iraq</option>
+                            <option value = "EUR" data-isoCode = "IRL">EUR - Ireland</option>
+                            <option value = "GBP" data-isoCode = "IMN">GBP - Isle of Man</option>
+                            <option value = "ILS" data-isoCode = "ISR">ILS - Israel</option>
+                            <option value = "EUR" data-isoCode = "ITA">EUR - Italy</option>
+                            <option value = "XOF" data-isoCode = "CIV">XOF - Ivory Coast</option>
+                            <option value = "JMD" data-isoCode = "JAM">JMD - Jamaica</option>
+                            <option value = "JPY" data-isoCode = "JPN">JPY - Japan</option>
+                            <option value = "GBP" data-isoCode = "JEY">GBP - Jersey</option>
+                            <option value = "JOD" data-isoCode = "JOR">JOD - Jordan</option>
+                            <option value = "KZT" data-isoCode = "KAZ">KZT - Kazakhstan</option>
+                            <option value = "KES" data-isoCode = "KEN">KES - Kenya</option>
+                            <option value = "AUD" data-isoCode = "KIR">AUD - Kiribati</option>
+                            <option value = "EUR" data-isoCode = "XKX">EUR - Kosovo</option>
+                            <option value = "KWD" data-isoCode = "KWT">KWD - Kuwait</option>
+                            <option value = "KGS" data-isoCode = "KGZ">KGS - Kyrgyzstan</option>
+                            <option value = "LAK" data-isoCode = "LAO">LAK - Laos</option>
+                            <option value = "LVL" data-isoCode = "LVA">LVL - Latvia</option>
+                            <option value = "LBP" data-isoCode = "LBN">LBP - Lebanon</option>
+                            <option value = "LSL" data-isoCode = "LSO">LSL - Lesotho</option>
+                            <option value = "LRD" data-isoCode = "LBR">LRD - Liberia</option>
+                            <option value = "LYD" data-isoCode = "LBY">LYD - Libya</option>
+                            <option value = "CHF" data-isoCode = "LIE">CHF - Liechtenstein</option>
+                            <option value = "LTL" data-isoCode = "LTU">LTL - Lithuania</option>
+                            <option value = "EUR" data-isoCode = "LUX">EUR - Luxembourg</option>
+                            <option value = "MOP" data-isoCode = "MAC">MOP - Macau</option>
+                            <option value = "MKD" data-isoCode = "MKD">MKD - Macedonia</option>
+                            <option value = "MGA" data-isoCode = "MDG">MGA - Madagascar</option>
+                            <option value = "MWK" data-isoCode = "MWI">MWK - Malawi</option>
+                            <option value = "MYR" data-isoCode = "MYS">MYR - Malaysia</option>
+                            <option value = "MVR" data-isoCode = "MDV">MVR - Maldives</option>
+                            <option value = "XOF" data-isoCode = "MLI">XOF - Mali</option>
+                            <option value = "EUR" data-isoCode = "MLT">EUR - Malta</option>
+                            <option value = "USD" data-isoCode = "MHL">USD - Marshall Islands</option>
+                            <option value = "MRO" data-isoCode = "MRT">MRO - Mauritania</option>
+                            <option value = "MUR" data-isoCode = "MUS">MUR - Mauritius</option>
+                            <option value = "EUR" data-isoCode = "MYT">EUR - Mayotte</option>
+                            <option value = "MXN" data-isoCode = "MEX">MXN - Mexico</option>
+                            <option value = "USD" data-isoCode = "FSM">USD - Micronesia</option>
+                            <option value = "MDL" data-isoCode = "MDA">MDL - Moldova</option>
+                            <option value = "EUR" data-isoCode = "MCO">EUR - Monaco</option>
+                            <option value = "MNT" data-isoCode = "MNG">MNT - Mongolia</option>
+                            <option value = "EUR" data-isoCode = "MNE">EUR - Montenegro</option>
+                            <option value = "XCD" data-isoCode = "MSR">XCD - Montserrat</option>
+                            <option value = "MAD" data-isoCode = "MAR">MAD - Morocco</option>
+                            <option value = "MZN" data-isoCode = "MOZ">MZN - Mozambique</option>
+                            <option value = "MMK" data-isoCode = "MMR">MMK - Myanmar</option>
+                            <option value = "NAD" data-isoCode = "NAM">NAD - Namibia</option>
+                            <option value = "AUD" data-isoCode = "NRU">AUD - Nauru</option>
+                            <option value = "NPR" data-isoCode = "NPL">NPR - Nepal</option>
+                            <option value = "EUR" data-isoCode = "NLD">EUR - Netherlands</option>
+                            <option value = "ANG" data-isoCode = "ANT">ANG - Netherlands Antilles  Guilder</option>
+                            <option value = "XPF" data-isoCode = "NCL">XPF - New Caledonia</option>
+                            <option value = "NZD" data-isoCode = "NZL">NZD - New Zealand</option>
+                            <option value = "NIO" data-isoCode = "NIC">NIO - Nicaragua</option>
+                            <option value = "XOF" data-isoCode = "NER">XOF - Niger</option>
+                            <option value = "NGN" data-isoCode = "NGA">NGN - Nigeria</option>
+                            <option value = "NZD" data-isoCode = "NIU">NZD - Niue</option>
+                            <option value = "KPW" data-isoCode = "PRK">KPW - North Korea</option>
+                            <option value = "USD" data-isoCode = "MNP">USD - Northern Mariana Islands</option>
+                            <option value = "NOK" data-isoCode = "NOR">NOK - Norway</option>
+                            <option value = "OMR" data-isoCode = "OMN">OMR - Oman</option>
+                            <option value = "PKR" data-isoCode = "PAK">PKR - Pakistan</option>
+                            <option value = "USD" data-isoCode = "PLW">USD - Palau</option>
+                            <option value = "PAB" data-isoCode = "PAN">PAB - Panama</option>
+                            <option value = "PGK" data-isoCode = "PNG">PGK - Papua New Guinea</option>
+                            <option value = "PYG" data-isoCode = "PRY">PYG - Paraguay</option>
+                            <option value = "PEN" data-isoCode = "PER">PEN - Peru</option>
+                            <option value = "PHP" data-isoCode = "PHL">PHP - Philippines</option>
+                            <option value = "NZD" data-isoCode = "PCN">NZD - Pitcairn</option>
+                            <option value = "PLN" data-isoCode = "POL">PLN - Poland</option>
+                            <option value = "EUR" data-isoCode = "PRT">EUR - Portugal</option>
+                            <option value = "USD" data-isoCode = "PRI">USD - Puerto Rico</option>
+                            <option value = "QAR" data-isoCode = "QAT">QAR - Qatar</option>
+                            <option value = "XAF" data-isoCode = "COG">XAF - Republic of the Congo</option>
+                            <option value = "EUR" data-isoCode = "REU">EUR - Reunion</option>
+                            <option value = "RON" data-isoCode = "ROU">RON - Romania</option>
+                            <option value = "RUB" data-isoCode = "RUS">RUB - Russia</option>
+                            <option value = "RWF" data-isoCode = "RWA">RWF - Rwanda</option>
+                            <option value = "EUR" data-isoCode = "BLM">EUR - Saint Barthelemy</option>
+                            <option value = "SHP" data-isoCode = "SHN">SHP - Saint Helena</option>
+                            <option value = "XCD" data-isoCode = "KNA">XCD - Saint Kitts and Nevis</option>
+                            <option value = "XCD" data-isoCode = "LCA">XCD - Saint Lucia</option>
+                            <option value = "EUR" data-isoCode = "MAF">EUR - Saint Martin</option>
+                            <option value = "EUR" data-isoCode = "SPM">EUR - Saint Pierre and Miquelon</option>
+                            <option value = "XCD" data-isoCode = "VCT">XCD - Saint Vincent and the Grenadines</option>
+                            <option value = "WST" data-isoCode = "WSM">WST - Samoa</option>
+                            <option value = "EUR" data-isoCode = "SMR">EUR - San Marino</option>
+                            <option value = "STD" data-isoCode = "STP">STD - Sao Tome and Principe</option>
+                            <option value = "SAR" data-isoCode = "SAU">SAR - Saudi Arabia</option>
+                            <option value = "XOF" data-isoCode = "SEN">XOF - Senegal</option>
+                            <option value = "RSD" data-isoCode = "SRB">RSD - Serbia</option>
+                            <option value = "SCR" data-isoCode = "SYC">SCR - Seychelles</option>
+                            <option value = "SLL" data-isoCode = "SLE">SLL - Sierra Leone</option>
+                            <option value = "SGD" data-isoCode = "SGP">SGD - Singapore</option>
+                            <option value = "ANG" data-isoCode = "SXM">ANG - Sint Maarten</option>
+                            <option value = "EUR" data-isoCode = "SVK">EUR - Slovakia</option>
+                            <option value = "EUR" data-isoCode = "SVN">EUR - Slovenia</option>
+                            <option value = "SBD" data-isoCode = "SLB">SBD - Solomon Islands</option>
+                            <option value = "SOS" data-isoCode = "SOM">SOS - Somalia</option>
+                            <option value = "ZAR" data-isoCode = "ZAF">ZAR - South Africa</option>
+                            <option value = "KRW" data-isoCode = "KOR">KRW - South Korea</option>
+                            <option value = "EUR" data-isoCode = "ESP">EUR - Spain</option>
+                            <option value = "LKR" data-isoCode = "LKA">LKR - Sri Lanka</option>
+                            <option value = "SDG" data-isoCode = "SDN">SDG - Sudan</option>
+                            <option value = "SRD" data-isoCode = "SUR">SRD - Suriname</option>
+                            <option value = "NOK" data-isoCode = "SJM">NOK - Svalbard and Jan Mayen</option>
+                            <option value = "SZL" data-isoCode = "SWZ">SZL - Swaziland</option>
+                            <option value = "SEK" data-isoCode = "SWE">SEK - Sweden</option>
+                            <option value = "CHF" data-isoCode = "CHE">CHF - Switzerland</option>
+                            <option value = "SYP" data-isoCode = "SYR">SYP - Syria</option>
+                            <option value = "TWD" data-isoCode = "TWN">TWD - Taiwan</option>
+                            <option value = "TJS" data-isoCode = "TJK">TJS - Tajikistan</option>
+                            <option value = "TZS" data-isoCode = "TZA">TZS - Tanzania</option>
+                            <option value = "THB" data-isoCode = "THA">THB - Thailand</option>
+                            <option value = "XOF" data-isoCode = "TGO">XOF - Togo</option>
+                            <option value = "NZD" data-isoCode = "TKL">NZD - Tokelau</option>
+                            <option value = "TOP" data-isoCode = "TON">TOP - Tonga</option>
+                            <option value = "TTD" data-isoCode = "TTO">TTD - Trinidad and Tobago</option>
+                            <option value = "TND" data-isoCode = "TUN">TND - Tunisia</option>
+                            <option value = "TRY" data-isoCode = "TUR">TRY - Turkey</option>
+                            <option value = "TMT" data-isoCode = "TKM">TMT - Turkmenistan</option>
+                            <option value = "USD" data-isoCode = "TCA">USD - Turks and Caicos Islands</option>
+                            <option value = "AUD" data-isoCode = "TUV">AUD - Tuvalu</option>
+                            <option value = "USD" data-isoCode = "VIR">USD - U.S. Virgin Islands</option>
+                            <option value = "UGX" data-isoCode = "UGA">UGX - Uganda</option>
+                            <option value = "UAH" data-isoCode = "UKR">UAH - Ukraine</option>
+                            <option value = "AED" data-isoCode = "ARE">AED - United Arab Emirates</option>
+                            <option value = "GBP" data-isoCode = "GBR">GBP - United Kingdom</option>
+                            <option value = "USD" data-isoCode = "USA" selected>USD - United States</option>
+                            <option value = "UYU" data-isoCode = "URY">UYU - Uruguay</option>
+                            <option value = "UZS" data-isoCode = "UZB">UZS - Uzbekistan</option>
+                            <option value = "VUV" data-isoCode = "VUT">VUV - Vanuatu</option>
+                            <option value = "EUR" data-isoCode = "VAT">EUR - Vatican City</option>
+                            <option value = "VEF" data-isoCode = "VEN">VEF - Venezuela</option>
+                            <option value = "VND" data-isoCode = "VNM">VND - Vietnam</option>
+                            <option value = "XPF" data-isoCode = "WLF">XPF - Wallis and Futuna</option>
+                            <option value = "MAD" data-isoCode = "ESH">MAD - Western Sahara</option>
+                            <option value = "YER" data-isoCode = "YEM">YER - Yemen</option>
+                            <option value = "ZMW" data-isoCode = "ZMB">ZMW - Zambia</option>
+                            <option value = "ZWL" data-isoCode = "ZWE">ZWL - Zimbabwe</option>
+    
+                        </select>
+                    </div>
                     <button class="swap" id="swap">
                         <img src="./assets/swap.png" alt="">
                     </button>
-                </div>
-                <div class="right">
-                    <h3 class="middle-heading">To</h3>
-                    <select name="target-list" id="target-list">
-                        <option value = "AFN" data-isoCode = "AFG">AFN - Afghanistan</option>
-                        <option value = "ALL" data-isoCode = "ALB">ALL - Albania</option>
-                        <option value = "DZD" data-isoCode = "DZA">DZD - Algeria</option>
-                        <option value = "USD" data-isoCode = "ASM">USD - American Samoa</option>
-                        <option value = "EUR" data-isoCode = "AND">EUR - Andorra</option>
-                        <option value = "AOA" data-isoCode = "AGO">AOA - Angola</option>
-                        <option value = "XCD" data-isoCode = "AIA">XCD - Anguilla</option>
-                        <option value = "XCD" data-isoCode = "ATG">XCD - Antigua and Barbuda</option>
-                        <option value = "ARS" data-isoCode = "ARG">ARS - Argentina</option>
-                        <option value = "AMD" data-isoCode = "ARM">AMD - Armenia</option>
-                        <option value = "AWG" data-isoCode = "ABW">AWG - Aruba</option>
-                        <option value = "AUD" data-isoCode = "AUS">AUD - Australia</option>
-                        <option value = "EUR" data-isoCode = "AUT">EUR - Austria</option>
-                        <option value = "AZN" data-isoCode = "AZE">AZN - Azerbaijan</option>
-                        <option value = "BSD" data-isoCode = "BHS">BSD - Bahamas</option>
-                        <option value = "BHD" data-isoCode = "BHR">BHD - Bahrain</option>
-                        <option value = "BDT" data-isoCode = "BGD">BDT - Bangladesh</option>
-                        <option value = "BBD" data-isoCode = "BRB">BBD - Barbados</option>
-                        <option value = "BYN" data-isoCode = "BLR">BYN - Belarus</option>
-                        <option value = "EUR" data-isoCode = "BEL">EUR - Belgium</option>
-                        <option value = "BZD" data-isoCode = "BLZ">BZD - Belize</option>
-                        <option value = "XOF" data-isoCode = "BEN">XOF - Benin</option>
-                        <option value = "BMD" data-isoCode = "BMU">BMD - Bermuda</option>
-                        <option value = "BTN" data-isoCode = "BTN">BTN - Bhutan</option>
-                        <option value = "BOB" data-isoCode = "BOL">BOB - Bolivia</option>
-                        <option value = "BAM" data-isoCode = "BIH">BAM - Bosnia and Herzegovina</option>
-                        <option value = "BWP" data-isoCode = "BWA">BWP - Botswana</option>
-                        <option value = "BRL" data-isoCode = "BRA">BRL - Brazil</option>
-                        <option value = "USD" data-isoCode = "IOT">USD - British Indian Ocean Territory</option>
-                        <option value = "USD" data-isoCode = "VGB">USD - British Virgin Islands</option>
-                        <option value = "BND" data-isoCode = "BRN">BND - Brunei</option>
-                        <option value = "BGN" data-isoCode = "BGR">BGN - Bulgaria</option>
-                        <option value = "XOF" data-isoCode = "BFA">XOF - Burkina Faso</option>
-                        <option value = "BIF" data-isoCode = "BDI">BIF - Burundi</option>
-                        <option value = "KHR" data-isoCode = "KHM">KHR - Cambodia</option>
-                        <option value = "XAF" data-isoCode = "CMR">XAF - Cameroon</option>
-                        <option value = "CAD" data-isoCode = "CAN">CAD - Canada</option>
-                        <option value = "CVE" data-isoCode = "CPV">CVE - Cape Verde</option>
-                        <option value = "KYD" data-isoCode = "CYM">KYD - Cayman Islands</option>
-                        <option value = "XAF" data-isoCode = "CAF">XAF - Central African Republic</option>
-                        <option value = "XAF" data-isoCode = "TCD">XAF - Chad</option>
-                        <option value = "CLP" data-isoCode = "CHL">CLP - Chile</option>
-                        <option value = "CNY" data-isoCode = "CHN">CNY - China</option>
-                        <option value = "AUD" data-isoCode = "CXR">AUD - Christmas Island</option>
-                        <option value = "AUD" data-isoCode = "CCK">AUD - Cocos Islands</option>
-                        <option value = "COP" data-isoCode = "COL">COP - Colombia</option>
-                        <option value = "KMF" data-isoCode = "COM">KMF - Comoros</option>
-                        <option value = "NZD" data-isoCode = "COK">NZD - Cook Islands</option>
-                        <option value = "CRC" data-isoCode = "CRI">CRC - Costa Rica</option>
-                        <option value = "HRK" data-isoCode = "HRV">HRK - Croatia</option>
-                        <option value = "CUC" data-isoCode = "CUB">CUC - Cuba</option>
-                        <option value = "ANG" data-isoCode = "CUW">ANG - Curacao</option>
-                        <option value = "EUR" data-isoCode = "CYP">EUR - Cyprus</option>
-                        <option value = "CZK" data-isoCode = "CZE">CZK - Czech Republic</option>
-                        <option value = "CDF" data-isoCode = "COD">CDF - Democratic Republic of the Congo</option>
-                        <option value = "DKK" data-isoCode = "DNK">DKK - Denmark</option>
-                        <option value = "DJF" data-isoCode = "DJI">DJF - Djibouti</option>
-                        <option value = "XCD" data-isoCode = "DMA">XCD - Dominica</option>
-                        <option value = "DOP" data-isoCode = "DOM">DOP - Dominican Republic</option>
-                        <option value = "USD" data-isoCode = "TLS">USD - East Timor</option>
-                        <option value = "USD" data-isoCode = "ECU">USD - Ecuador</option>
-                        <option value = "EGP" data-isoCode = "EGY">EGP - Egypt</option>
-                        <option value = "SVC" data-isoCode = "SLV">SVC - El Salvador</option>
-                        <option value = "XAF" data-isoCode = "GNQ">XAF - Equatorial Guinea</option>
-                        <option value = "ERN" data-isoCode = "ERI">ERN - Eritrea</option>
-                        <option value = "ETB" data-isoCode = "ETH">ETB - Ethiopia</option>
-                        <option value = "FKP" data-isoCode = "FLK">FKP - Falkland Islands</option>
-                        <option value = "DKK" data-isoCode = "FRO">DKK - Faroe Islands</option>
-                        <option value = "FJD" data-isoCode = "FJI">FJD - Fiji</option>
-                        <option value = "EUR" data-isoCode = "FIN">EUR - Finland</option>
-                        <option value = "EUR" data-isoCode = "FRA">EUR - France</option>
-                        <option value = "XPF" data-isoCode = "PYF">XPF - French Polynesia</option>
-                        <option value = "XAF" data-isoCode = "GAB">XAF - Gabon</option>
-                        <option value = "GMD" data-isoCode = "GMB">GMD - Gambia</option>
-                        <option value = "GEL" data-isoCode = "GEO">GEL - Georgia</option>
-                        <option value = "EUR" data-isoCode = "DEU">EUR - Germany</option>
-                        <option value = "GHS" data-isoCode = "GHA">GHS - Ghana</option>
-                        <option value = "GIP" data-isoCode = "GIB">GIP - Gibraltar</option>
-                        <option value = "EUR" data-isoCode = "GRC">EUR - Greece</option>
-                        <option value = "DKK" data-isoCode = "GRL">DKK - Greenland</option>
-                        <option value = "XCD" data-isoCode = "GRD">XCD - Grenada</option>
-                        <option value = "USD" data-isoCode = "GUM">USD - Guam</option>
-                        <option value = "GTQ" data-isoCode = "GTM">GTQ - Guatemala</option>
-                        <option value = "GBP" data-isoCode = "GGY">GBP - Guernsey</option>
-                        <option value = "GNF" data-isoCode = "GIN">GNF - Guinea</option>
-                        <option value = "XOF" data-isoCode = "GNB">XOF - Guinea-Bissau</option>
-                        <option value = "GYD" data-isoCode = "GUY">GYD - Guyana</option>
-                        <option value = "HTG" data-isoCode = "HTI">HTG - Haiti</option>
-                        <option value = "HNL" data-isoCode = "HND">HNL - Honduras</option>
-                        <option value = "HKD" data-isoCode = "HKG">HKD - Hong Kong</option>
-                        <option value = "HUF" data-isoCode = "HUN">HUF - Hungary</option>
-                        <option value = "ISK" data-isoCode = "ISL">ISK - Iceland</option>
-                        <option value = "INR" data-isoCode = "IND">INR - India</option>
-                        <option value = "IDR" data-isoCode = "IDN">IDR - Indonesia</option>
-                        <option value = "IRR" data-isoCode = "IRN">IRR - Iran</option>
-                        <option value = "IQD" data-isoCode = "IRQ">IQD - Iraq</option>
-                        <option value = "EUR" data-isoCode = "IRL">EUR - Ireland</option>
-                        <option value = "GBP" data-isoCode = "IMN">GBP - Isle of Man</option>
-                        <option value = "ILS" data-isoCode = "ISR">ILS - Israel</option>
-                        <option value = "EUR" data-isoCode = "ITA">EUR - Italy</option>
-                        <option value = "XOF" data-isoCode = "CIV">XOF - Ivory Coast</option>
-                        <option value = "JMD" data-isoCode = "JAM">JMD - Jamaica</option>
-                        <option value = "JPY" data-isoCode = "JPN">JPY - Japan</option>
-                        <option value = "GBP" data-isoCode = "JEY">GBP - Jersey</option>
-                        <option value = "JOD" data-isoCode = "JOR">JOD - Jordan</option>
-                        <option value = "KZT" data-isoCode = "KAZ">KZT - Kazakhstan</option>
-                        <option value = "KES" data-isoCode = "KEN">KES - Kenya</option>
-                        <option value = "AUD" data-isoCode = "KIR">AUD - Kiribati</option>
-                        <option value = "EUR" data-isoCode = "XKX">EUR - Kosovo</option>
-                        <option value = "KWD" data-isoCode = "KWT">KWD - Kuwait</option>
-                        <option value = "KGS" data-isoCode = "KGZ">KGS - Kyrgyzstan</option>
-                        <option value = "LAK" data-isoCode = "LAO">LAK - Laos</option>
-                        <option value = "LVL" data-isoCode = "LVA">LVL - Latvia</option>
-                        <option value = "LBP" data-isoCode = "LBN">LBP - Lebanon</option>
-                        <option value = "LSL" data-isoCode = "LSO">LSL - Lesotho</option>
-                        <option value = "LRD" data-isoCode = "LBR">LRD - Liberia</option>
-                        <option value = "LYD" data-isoCode = "LBY">LYD - Libya</option>
-                        <option value = "CHF" data-isoCode = "LIE">CHF - Liechtenstein</option>
-                        <option value = "LTL" data-isoCode = "LTU">LTL - Lithuania</option>
-                        <option value = "EUR" data-isoCode = "LUX">EUR - Luxembourg</option>
-                        <option value = "MOP" data-isoCode = "MAC">MOP - Macau</option>
-                        <option value = "MKD" data-isoCode = "MKD">MKD - Macedonia</option>
-                        <option value = "MGA" data-isoCode = "MDG">MGA - Madagascar</option>
-                        <option value = "MWK" data-isoCode = "MWI">MWK - Malawi</option>
-                        <option value = "MYR" data-isoCode = "MYS">MYR - Malaysia</option>
-                        <option value = "MVR" data-isoCode = "MDV">MVR - Maldives</option>
-                        <option value = "XOF" data-isoCode = "MLI">XOF - Mali</option>
-                        <option value = "EUR" data-isoCode = "MLT">EUR - Malta</option>
-                        <option value = "USD" data-isoCode = "MHL">USD - Marshall Islands</option>
-                        <option value = "MRO" data-isoCode = "MRT">MRO - Mauritania</option>
-                        <option value = "MUR" data-isoCode = "MUS">MUR - Mauritius</option>
-                        <option value = "EUR" data-isoCode = "MYT">EUR - Mayotte</option>
-                        <option value = "MXN" data-isoCode = "MEX">MXN - Mexico</option>
-                        <option value = "USD" data-isoCode = "FSM">USD - Micronesia</option>
-                        <option value = "MDL" data-isoCode = "MDA">MDL - Moldova</option>
-                        <option value = "EUR" data-isoCode = "MCO">EUR - Monaco</option>
-                        <option value = "MNT" data-isoCode = "MNG">MNT - Mongolia</option>
-                        <option value = "EUR" data-isoCode = "MNE">EUR - Montenegro</option>
-                        <option value = "XCD" data-isoCode = "MSR">XCD - Montserrat</option>
-                        <option value = "MAD" data-isoCode = "MAR">MAD - Morocco</option>
-                        <option value = "MZN" data-isoCode = "MOZ">MZN - Mozambique</option>
-                        <option value = "MMK" data-isoCode = "MMR">MMK - Myanmar</option>
-                        <option value = "NAD" data-isoCode = "NAM">NAD - Namibia</option>
-                        <option value = "AUD" data-isoCode = "NRU">AUD - Nauru</option>
-                        <option value = "NPR" data-isoCode = "NPL">NPR - Nepal</option>
-                        <option value = "EUR" data-isoCode = "NLD">EUR - Netherlands</option>
-                        <option value = "ANG" data-isoCode = "ANT">ANG - Netherlands Antilles  Guilder</option>
-                        <option value = "XPF" data-isoCode = "NCL">XPF - New Caledonia</option>
-                        <option value = "NZD" data-isoCode = "NZL">NZD - New Zealand</option>
-                        <option value = "NIO" data-isoCode = "NIC">NIO - Nicaragua</option>
-                        <option value = "XOF" data-isoCode = "NER">XOF - Niger</option>
-                        <option value = "NGN" data-isoCode = "NGA">NGN - Nigeria</option>
-                        <option value = "NZD" data-isoCode = "NIU">NZD - Niue</option>
-                        <option value = "KPW" data-isoCode = "PRK">KPW - North Korea</option>
-                        <option value = "USD" data-isoCode = "MNP">USD - Northern Mariana Islands</option>
-                        <option value = "NOK" data-isoCode = "NOR">NOK - Norway</option>
-                        <option value = "OMR" data-isoCode = "OMN">OMR - Oman</option>
-                        <option value = "PKR" data-isoCode = "PAK" selected>PKR - Pakistan</option>
-                        <option value = "USD" data-isoCode = "PLW">USD - Palau</option>
-                        <option value = "PAB" data-isoCode = "PAN">PAB - Panama</option>
-                        <option value = "PGK" data-isoCode = "PNG">PGK - Papua New Guinea</option>
-                        <option value = "PYG" data-isoCode = "PRY">PYG - Paraguay</option>
-                        <option value = "PEN" data-isoCode = "PER">PEN - Peru</option>
-                        <option value = "PHP" data-isoCode = "PHL">PHP - Philippines</option>
-                        <option value = "NZD" data-isoCode = "PCN">NZD - Pitcairn</option>
-                        <option value = "PLN" data-isoCode = "POL">PLN - Poland</option>
-                        <option value = "EUR" data-isoCode = "PRT">EUR - Portugal</option>
-                        <option value = "USD" data-isoCode = "PRI">USD - Puerto Rico</option>
-                        <option value = "QAR" data-isoCode = "QAT">QAR - Qatar</option>
-                        <option value = "XAF" data-isoCode = "COG">XAF - Republic of the Congo</option>
-                        <option value = "EUR" data-isoCode = "REU">EUR - Reunion</option>
-                        <option value = "RON" data-isoCode = "ROU">RON - Romania</option>
-                        <option value = "RUB" data-isoCode = "RUS">RUB - Russia</option>
-                        <option value = "RWF" data-isoCode = "RWA">RWF - Rwanda</option>
-                        <option value = "EUR" data-isoCode = "BLM">EUR - Saint Barthelemy</option>
-                        <option value = "SHP" data-isoCode = "SHN">SHP - Saint Helena</option>
-                        <option value = "XCD" data-isoCode = "KNA">XCD - Saint Kitts and Nevis</option>
-                        <option value = "XCD" data-isoCode = "LCA">XCD - Saint Lucia</option>
-                        <option value = "EUR" data-isoCode = "MAF">EUR - Saint Martin</option>
-                        <option value = "EUR" data-isoCode = "SPM">EUR - Saint Pierre and Miquelon</option>
-                        <option value = "XCD" data-isoCode = "VCT">XCD - Saint Vincent and the Grenadines</option>
-                        <option value = "WST" data-isoCode = "WSM">WST - Samoa</option>
-                        <option value = "EUR" data-isoCode = "SMR">EUR - San Marino</option>
-                        <option value = "STD" data-isoCode = "STP">STD - Sao Tome and Principe</option>
-                        <option value = "SAR" data-isoCode = "SAU">SAR - Saudi Arabia</option>
-                        <option value = "XOF" data-isoCode = "SEN">XOF - Senegal</option>
-                        <option value = "RSD" data-isoCode = "SRB">RSD - Serbia</option>
-                        <option value = "SCR" data-isoCode = "SYC">SCR - Seychelles</option>
-                        <option value = "SLL" data-isoCode = "SLE">SLL - Sierra Leone</option>
-                        <option value = "SGD" data-isoCode = "SGP">SGD - Singapore</option>
-                        <option value = "ANG" data-isoCode = "SXM">ANG - Sint Maarten</option>
-                        <option value = "EUR" data-isoCode = "SVK">EUR - Slovakia</option>
-                        <option value = "EUR" data-isoCode = "SVN">EUR - Slovenia</option>
-                        <option value = "SBD" data-isoCode = "SLB">SBD - Solomon Islands</option>
-                        <option value = "SOS" data-isoCode = "SOM">SOS - Somalia</option>
-                        <option value = "ZAR" data-isoCode = "ZAF">ZAR - South Africa</option>
-                        <option value = "KRW" data-isoCode = "KOR">KRW - South Korea</option>
-                        <option value = "EUR" data-isoCode = "ESP">EUR - Spain</option>
-                        <option value = "LKR" data-isoCode = "LKA">LKR - Sri Lanka</option>
-                        <option value = "SDG" data-isoCode = "SDN">SDG - Sudan</option>
-                        <option value = "SRD" data-isoCode = "SUR">SRD - Suriname</option>
-                        <option value = "NOK" data-isoCode = "SJM">NOK - Svalbard and Jan Mayen</option>
-                        <option value = "SZL" data-isoCode = "SWZ">SZL - Swaziland</option>
-                        <option value = "SEK" data-isoCode = "SWE">SEK - Sweden</option>
-                        <option value = "CHF" data-isoCode = "CHE">CHF - Switzerland</option>
-                        <option value = "SYP" data-isoCode = "SYR">SYP - Syria</option>
-                        <option value = "TWD" data-isoCode = "TWN">TWD - Taiwan</option>
-                        <option value = "TJS" data-isoCode = "TJK">TJS - Tajikistan</option>
-                        <option value = "TZS" data-isoCode = "TZA">TZS - Tanzania</option>
-                        <option value = "THB" data-isoCode = "THA">THB - Thailand</option>
-                        <option value = "XOF" data-isoCode = "TGO">XOF - Togo</option>
-                        <option value = "NZD" data-isoCode = "TKL">NZD - Tokelau</option>
-                        <option value = "TOP" data-isoCode = "TON">TOP - Tonga</option>
-                        <option value = "TTD" data-isoCode = "TTO">TTD - Trinidad and Tobago</option>
-                        <option value = "TND" data-isoCode = "TUN">TND - Tunisia</option>
-                        <option value = "TRY" data-isoCode = "TUR">TRY - Turkey</option>
-                        <option value = "TMT" data-isoCode = "TKM">TMT - Turkmenistan</option>
-                        <option value = "USD" data-isoCode = "TCA">USD - Turks and Caicos Islands</option>
-                        <option value = "AUD" data-isoCode = "TUV">AUD - Tuvalu</option>
-                        <option value = "USD" data-isoCode = "VIR">USD - U.S. Virgin Islands</option>
-                        <option value = "UGX" data-isoCode = "UGA">UGX - Uganda</option>
-                        <option value = "UAH" data-isoCode = "UKR">UAH - Ukraine</option>
-                        <option value = "AED" data-isoCode = "ARE">AED - United Arab Emirates</option>
-                        <option value = "GBP" data-isoCode = "GBR">GBP - United Kingdom</option>
-                        <option value = "USD" data-isoCode = "USA">USD - United States</option>
-                        <option value = "UYU" data-isoCode = "URY">UYU - Uruguay</option>
-                        <option value = "UZS" data-isoCode = "UZB">UZS - Uzbekistan</option>
-                        <option value = "VUV" data-isoCode = "VUT">VUV - Vanuatu</option>
-                        <option value = "EUR" data-isoCode = "VAT">EUR - Vatican City</option>
-                        <option value = "VEF" data-isoCode = "VEN">VEF - Venezuela</option>
-                        <option value = "VND" data-isoCode = "VNM">VND - Vietnam</option>
-                        <option value = "XPF" data-isoCode = "WLF">XPF - Wallis and Futuna</option>
-                        <option value = "MAD" data-isoCode = "ESH">MAD - Western Sahara</option>
-                        <option value = "YER" data-isoCode = "YEM">YER - Yemen</option>
-                        <option value = "ZMW" data-isoCode = "ZMB">ZMW - Zambia</option>
-                        <option value = "ZWL" data-isoCode = "ZWE">ZWL - Zimbabwe</option>
-                    </select>
+                    <div class="right">
+                        <h3 class="right-heading">To</h3>
+                        <select name="target-list" id="target-list">
+                            <option value = "AFN" data-isoCode = "AFG">AFN - Afghanistan</option>
+                            <option value = "ALL" data-isoCode = "ALB">ALL - Albania</option>
+                            <option value = "DZD" data-isoCode = "DZA">DZD - Algeria</option>
+                            <option value = "USD" data-isoCode = "ASM">USD - American Samoa</option>
+                            <option value = "EUR" data-isoCode = "AND">EUR - Andorra</option>
+                            <option value = "AOA" data-isoCode = "AGO">AOA - Angola</option>
+                            <option value = "XCD" data-isoCode = "AIA">XCD - Anguilla</option>
+                            <option value = "XCD" data-isoCode = "ATG">XCD - Antigua and Barbuda</option>
+                            <option value = "ARS" data-isoCode = "ARG">ARS - Argentina</option>
+                            <option value = "AMD" data-isoCode = "ARM">AMD - Armenia</option>
+                            <option value = "AWG" data-isoCode = "ABW">AWG - Aruba</option>
+                            <option value = "AUD" data-isoCode = "AUS">AUD - Australia</option>
+                            <option value = "EUR" data-isoCode = "AUT">EUR - Austria</option>
+                            <option value = "AZN" data-isoCode = "AZE">AZN - Azerbaijan</option>
+                            <option value = "BSD" data-isoCode = "BHS">BSD - Bahamas</option>
+                            <option value = "BHD" data-isoCode = "BHR">BHD - Bahrain</option>
+                            <option value = "BDT" data-isoCode = "BGD">BDT - Bangladesh</option>
+                            <option value = "BBD" data-isoCode = "BRB">BBD - Barbados</option>
+                            <option value = "BYN" data-isoCode = "BLR">BYN - Belarus</option>
+                            <option value = "EUR" data-isoCode = "BEL">EUR - Belgium</option>
+                            <option value = "BZD" data-isoCode = "BLZ">BZD - Belize</option>
+                            <option value = "XOF" data-isoCode = "BEN">XOF - Benin</option>
+                            <option value = "BMD" data-isoCode = "BMU">BMD - Bermuda</option>
+                            <option value = "BTN" data-isoCode = "BTN">BTN - Bhutan</option>
+                            <option value = "BOB" data-isoCode = "BOL">BOB - Bolivia</option>
+                            <option value = "BAM" data-isoCode = "BIH">BAM - Bosnia and Herzegovina</option>
+                            <option value = "BWP" data-isoCode = "BWA">BWP - Botswana</option>
+                            <option value = "BRL" data-isoCode = "BRA">BRL - Brazil</option>
+                            <option value = "USD" data-isoCode = "IOT">USD - British Indian Ocean Territory</option>
+                            <option value = "USD" data-isoCode = "VGB">USD - British Virgin Islands</option>
+                            <option value = "BND" data-isoCode = "BRN">BND - Brunei</option>
+                            <option value = "BGN" data-isoCode = "BGR">BGN - Bulgaria</option>
+                            <option value = "XOF" data-isoCode = "BFA">XOF - Burkina Faso</option>
+                            <option value = "BIF" data-isoCode = "BDI">BIF - Burundi</option>
+                            <option value = "KHR" data-isoCode = "KHM">KHR - Cambodia</option>
+                            <option value = "XAF" data-isoCode = "CMR">XAF - Cameroon</option>
+                            <option value = "CAD" data-isoCode = "CAN">CAD - Canada</option>
+                            <option value = "CVE" data-isoCode = "CPV">CVE - Cape Verde</option>
+                            <option value = "KYD" data-isoCode = "CYM">KYD - Cayman Islands</option>
+                            <option value = "XAF" data-isoCode = "CAF">XAF - Central African Republic</option>
+                            <option value = "XAF" data-isoCode = "TCD">XAF - Chad</option>
+                            <option value = "CLP" data-isoCode = "CHL">CLP - Chile</option>
+                            <option value = "CNY" data-isoCode = "CHN">CNY - China</option>
+                            <option value = "AUD" data-isoCode = "CXR">AUD - Christmas Island</option>
+                            <option value = "AUD" data-isoCode = "CCK">AUD - Cocos Islands</option>
+                            <option value = "COP" data-isoCode = "COL">COP - Colombia</option>
+                            <option value = "KMF" data-isoCode = "COM">KMF - Comoros</option>
+                            <option value = "NZD" data-isoCode = "COK">NZD - Cook Islands</option>
+                            <option value = "CRC" data-isoCode = "CRI">CRC - Costa Rica</option>
+                            <option value = "HRK" data-isoCode = "HRV">HRK - Croatia</option>
+                            <option value = "CUC" data-isoCode = "CUB">CUC - Cuba</option>
+                            <option value = "ANG" data-isoCode = "CUW">ANG - Curacao</option>
+                            <option value = "EUR" data-isoCode = "CYP">EUR - Cyprus</option>
+                            <option value = "CZK" data-isoCode = "CZE">CZK - Czech Republic</option>
+                            <option value = "CDF" data-isoCode = "COD">CDF - Democratic Republic of the Congo</option>
+                            <option value = "DKK" data-isoCode = "DNK">DKK - Denmark</option>
+                            <option value = "DJF" data-isoCode = "DJI">DJF - Djibouti</option>
+                            <option value = "XCD" data-isoCode = "DMA">XCD - Dominica</option>
+                            <option value = "DOP" data-isoCode = "DOM">DOP - Dominican Republic</option>
+                            <option value = "USD" data-isoCode = "TLS">USD - East Timor</option>
+                            <option value = "USD" data-isoCode = "ECU">USD - Ecuador</option>
+                            <option value = "EGP" data-isoCode = "EGY">EGP - Egypt</option>
+                            <option value = "SVC" data-isoCode = "SLV">SVC - El Salvador</option>
+                            <option value = "XAF" data-isoCode = "GNQ">XAF - Equatorial Guinea</option>
+                            <option value = "ERN" data-isoCode = "ERI">ERN - Eritrea</option>
+                            <option value = "ETB" data-isoCode = "ETH">ETB - Ethiopia</option>
+                            <option value = "FKP" data-isoCode = "FLK">FKP - Falkland Islands</option>
+                            <option value = "DKK" data-isoCode = "FRO">DKK - Faroe Islands</option>
+                            <option value = "FJD" data-isoCode = "FJI">FJD - Fiji</option>
+                            <option value = "EUR" data-isoCode = "FIN">EUR - Finland</option>
+                            <option value = "EUR" data-isoCode = "FRA">EUR - France</option>
+                            <option value = "XPF" data-isoCode = "PYF">XPF - French Polynesia</option>
+                            <option value = "XAF" data-isoCode = "GAB">XAF - Gabon</option>
+                            <option value = "GMD" data-isoCode = "GMB">GMD - Gambia</option>
+                            <option value = "GEL" data-isoCode = "GEO">GEL - Georgia</option>
+                            <option value = "EUR" data-isoCode = "DEU">EUR - Germany</option>
+                            <option value = "GHS" data-isoCode = "GHA">GHS - Ghana</option>
+                            <option value = "GIP" data-isoCode = "GIB">GIP - Gibraltar</option>
+                            <option value = "EUR" data-isoCode = "GRC">EUR - Greece</option>
+                            <option value = "DKK" data-isoCode = "GRL">DKK - Greenland</option>
+                            <option value = "XCD" data-isoCode = "GRD">XCD - Grenada</option>
+                            <option value = "USD" data-isoCode = "GUM">USD - Guam</option>
+                            <option value = "GTQ" data-isoCode = "GTM">GTQ - Guatemala</option>
+                            <option value = "GBP" data-isoCode = "GGY">GBP - Guernsey</option>
+                            <option value = "GNF" data-isoCode = "GIN">GNF - Guinea</option>
+                            <option value = "XOF" data-isoCode = "GNB">XOF - Guinea-Bissau</option>
+                            <option value = "GYD" data-isoCode = "GUY">GYD - Guyana</option>
+                            <option value = "HTG" data-isoCode = "HTI">HTG - Haiti</option>
+                            <option value = "HNL" data-isoCode = "HND">HNL - Honduras</option>
+                            <option value = "HKD" data-isoCode = "HKG">HKD - Hong Kong</option>
+                            <option value = "HUF" data-isoCode = "HUN">HUF - Hungary</option>
+                            <option value = "ISK" data-isoCode = "ISL">ISK - Iceland</option>
+                            <option value = "INR" data-isoCode = "IND">INR - India</option>
+                            <option value = "IDR" data-isoCode = "IDN">IDR - Indonesia</option>
+                            <option value = "IRR" data-isoCode = "IRN">IRR - Iran</option>
+                            <option value = "IQD" data-isoCode = "IRQ">IQD - Iraq</option>
+                            <option value = "EUR" data-isoCode = "IRL">EUR - Ireland</option>
+                            <option value = "GBP" data-isoCode = "IMN">GBP - Isle of Man</option>
+                            <option value = "ILS" data-isoCode = "ISR">ILS - Israel</option>
+                            <option value = "EUR" data-isoCode = "ITA">EUR - Italy</option>
+                            <option value = "XOF" data-isoCode = "CIV">XOF - Ivory Coast</option>
+                            <option value = "JMD" data-isoCode = "JAM">JMD - Jamaica</option>
+                            <option value = "JPY" data-isoCode = "JPN">JPY - Japan</option>
+                            <option value = "GBP" data-isoCode = "JEY">GBP - Jersey</option>
+                            <option value = "JOD" data-isoCode = "JOR">JOD - Jordan</option>
+                            <option value = "KZT" data-isoCode = "KAZ">KZT - Kazakhstan</option>
+                            <option value = "KES" data-isoCode = "KEN">KES - Kenya</option>
+                            <option value = "AUD" data-isoCode = "KIR">AUD - Kiribati</option>
+                            <option value = "EUR" data-isoCode = "XKX">EUR - Kosovo</option>
+                            <option value = "KWD" data-isoCode = "KWT">KWD - Kuwait</option>
+                            <option value = "KGS" data-isoCode = "KGZ">KGS - Kyrgyzstan</option>
+                            <option value = "LAK" data-isoCode = "LAO">LAK - Laos</option>
+                            <option value = "LVL" data-isoCode = "LVA">LVL - Latvia</option>
+                            <option value = "LBP" data-isoCode = "LBN">LBP - Lebanon</option>
+                            <option value = "LSL" data-isoCode = "LSO">LSL - Lesotho</option>
+                            <option value = "LRD" data-isoCode = "LBR">LRD - Liberia</option>
+                            <option value = "LYD" data-isoCode = "LBY">LYD - Libya</option>
+                            <option value = "CHF" data-isoCode = "LIE">CHF - Liechtenstein</option>
+                            <option value = "LTL" data-isoCode = "LTU">LTL - Lithuania</option>
+                            <option value = "EUR" data-isoCode = "LUX">EUR - Luxembourg</option>
+                            <option value = "MOP" data-isoCode = "MAC">MOP - Macau</option>
+                            <option value = "MKD" data-isoCode = "MKD">MKD - Macedonia</option>
+                            <option value = "MGA" data-isoCode = "MDG">MGA - Madagascar</option>
+                            <option value = "MWK" data-isoCode = "MWI">MWK - Malawi</option>
+                            <option value = "MYR" data-isoCode = "MYS">MYR - Malaysia</option>
+                            <option value = "MVR" data-isoCode = "MDV">MVR - Maldives</option>
+                            <option value = "XOF" data-isoCode = "MLI">XOF - Mali</option>
+                            <option value = "EUR" data-isoCode = "MLT">EUR - Malta</option>
+                            <option value = "USD" data-isoCode = "MHL">USD - Marshall Islands</option>
+                            <option value = "MRO" data-isoCode = "MRT">MRO - Mauritania</option>
+                            <option value = "MUR" data-isoCode = "MUS">MUR - Mauritius</option>
+                            <option value = "EUR" data-isoCode = "MYT">EUR - Mayotte</option>
+                            <option value = "MXN" data-isoCode = "MEX">MXN - Mexico</option>
+                            <option value = "USD" data-isoCode = "FSM">USD - Micronesia</option>
+                            <option value = "MDL" data-isoCode = "MDA">MDL - Moldova</option>
+                            <option value = "EUR" data-isoCode = "MCO">EUR - Monaco</option>
+                            <option value = "MNT" data-isoCode = "MNG">MNT - Mongolia</option>
+                            <option value = "EUR" data-isoCode = "MNE">EUR - Montenegro</option>
+                            <option value = "XCD" data-isoCode = "MSR">XCD - Montserrat</option>
+                            <option value = "MAD" data-isoCode = "MAR">MAD - Morocco</option>
+                            <option value = "MZN" data-isoCode = "MOZ">MZN - Mozambique</option>
+                            <option value = "MMK" data-isoCode = "MMR">MMK - Myanmar</option>
+                            <option value = "NAD" data-isoCode = "NAM">NAD - Namibia</option>
+                            <option value = "AUD" data-isoCode = "NRU">AUD - Nauru</option>
+                            <option value = "NPR" data-isoCode = "NPL">NPR - Nepal</option>
+                            <option value = "EUR" data-isoCode = "NLD">EUR - Netherlands</option>
+                            <option value = "ANG" data-isoCode = "ANT">ANG - Netherlands Antilles  Guilder</option>
+                            <option value = "XPF" data-isoCode = "NCL">XPF - New Caledonia</option>
+                            <option value = "NZD" data-isoCode = "NZL">NZD - New Zealand</option>
+                            <option value = "NIO" data-isoCode = "NIC">NIO - Nicaragua</option>
+                            <option value = "XOF" data-isoCode = "NER">XOF - Niger</option>
+                            <option value = "NGN" data-isoCode = "NGA">NGN - Nigeria</option>
+                            <option value = "NZD" data-isoCode = "NIU">NZD - Niue</option>
+                            <option value = "KPW" data-isoCode = "PRK">KPW - North Korea</option>
+                            <option value = "USD" data-isoCode = "MNP">USD - Northern Mariana Islands</option>
+                            <option value = "NOK" data-isoCode = "NOR">NOK - Norway</option>
+                            <option value = "OMR" data-isoCode = "OMN">OMR - Oman</option>
+                            <option value = "PKR" data-isoCode = "PAK" selected>PKR - Pakistan</option>
+                            <option value = "USD" data-isoCode = "PLW">USD - Palau</option>
+                            <option value = "PAB" data-isoCode = "PAN">PAB - Panama</option>
+                            <option value = "PGK" data-isoCode = "PNG">PGK - Papua New Guinea</option>
+                            <option value = "PYG" data-isoCode = "PRY">PYG - Paraguay</option>
+                            <option value = "PEN" data-isoCode = "PER">PEN - Peru</option>
+                            <option value = "PHP" data-isoCode = "PHL">PHP - Philippines</option>
+                            <option value = "NZD" data-isoCode = "PCN">NZD - Pitcairn</option>
+                            <option value = "PLN" data-isoCode = "POL">PLN - Poland</option>
+                            <option value = "EUR" data-isoCode = "PRT">EUR - Portugal</option>
+                            <option value = "USD" data-isoCode = "PRI">USD - Puerto Rico</option>
+                            <option value = "QAR" data-isoCode = "QAT">QAR - Qatar</option>
+                            <option value = "XAF" data-isoCode = "COG">XAF - Republic of the Congo</option>
+                            <option value = "EUR" data-isoCode = "REU">EUR - Reunion</option>
+                            <option value = "RON" data-isoCode = "ROU">RON - Romania</option>
+                            <option value = "RUB" data-isoCode = "RUS">RUB - Russia</option>
+                            <option value = "RWF" data-isoCode = "RWA">RWF - Rwanda</option>
+                            <option value = "EUR" data-isoCode = "BLM">EUR - Saint Barthelemy</option>
+                            <option value = "SHP" data-isoCode = "SHN">SHP - Saint Helena</option>
+                            <option value = "XCD" data-isoCode = "KNA">XCD - Saint Kitts and Nevis</option>
+                            <option value = "XCD" data-isoCode = "LCA">XCD - Saint Lucia</option>
+                            <option value = "EUR" data-isoCode = "MAF">EUR - Saint Martin</option>
+                            <option value = "EUR" data-isoCode = "SPM">EUR - Saint Pierre and Miquelon</option>
+                            <option value = "XCD" data-isoCode = "VCT">XCD - Saint Vincent and the Grenadines</option>
+                            <option value = "WST" data-isoCode = "WSM">WST - Samoa</option>
+                            <option value = "EUR" data-isoCode = "SMR">EUR - San Marino</option>
+                            <option value = "STD" data-isoCode = "STP">STD - Sao Tome and Principe</option>
+                            <option value = "SAR" data-isoCode = "SAU">SAR - Saudi Arabia</option>
+                            <option value = "XOF" data-isoCode = "SEN">XOF - Senegal</option>
+                            <option value = "RSD" data-isoCode = "SRB">RSD - Serbia</option>
+                            <option value = "SCR" data-isoCode = "SYC">SCR - Seychelles</option>
+                            <option value = "SLL" data-isoCode = "SLE">SLL - Sierra Leone</option>
+                            <option value = "SGD" data-isoCode = "SGP">SGD - Singapore</option>
+                            <option value = "ANG" data-isoCode = "SXM">ANG - Sint Maarten</option>
+                            <option value = "EUR" data-isoCode = "SVK">EUR - Slovakia</option>
+                            <option value = "EUR" data-isoCode = "SVN">EUR - Slovenia</option>
+                            <option value = "SBD" data-isoCode = "SLB">SBD - Solomon Islands</option>
+                            <option value = "SOS" data-isoCode = "SOM">SOS - Somalia</option>
+                            <option value = "ZAR" data-isoCode = "ZAF">ZAR - South Africa</option>
+                            <option value = "KRW" data-isoCode = "KOR">KRW - South Korea</option>
+                            <option value = "EUR" data-isoCode = "ESP">EUR - Spain</option>
+                            <option value = "LKR" data-isoCode = "LKA">LKR - Sri Lanka</option>
+                            <option value = "SDG" data-isoCode = "SDN">SDG - Sudan</option>
+                            <option value = "SRD" data-isoCode = "SUR">SRD - Suriname</option>
+                            <option value = "NOK" data-isoCode = "SJM">NOK - Svalbard and Jan Mayen</option>
+                            <option value = "SZL" data-isoCode = "SWZ">SZL - Swaziland</option>
+                            <option value = "SEK" data-isoCode = "SWE">SEK - Sweden</option>
+                            <option value = "CHF" data-isoCode = "CHE">CHF - Switzerland</option>
+                            <option value = "SYP" data-isoCode = "SYR">SYP - Syria</option>
+                            <option value = "TWD" data-isoCode = "TWN">TWD - Taiwan</option>
+                            <option value = "TJS" data-isoCode = "TJK">TJS - Tajikistan</option>
+                            <option value = "TZS" data-isoCode = "TZA">TZS - Tanzania</option>
+                            <option value = "THB" data-isoCode = "THA">THB - Thailand</option>
+                            <option value = "XOF" data-isoCode = "TGO">XOF - Togo</option>
+                            <option value = "NZD" data-isoCode = "TKL">NZD - Tokelau</option>
+                            <option value = "TOP" data-isoCode = "TON">TOP - Tonga</option>
+                            <option value = "TTD" data-isoCode = "TTO">TTD - Trinidad and Tobago</option>
+                            <option value = "TND" data-isoCode = "TUN">TND - Tunisia</option>
+                            <option value = "TRY" data-isoCode = "TUR">TRY - Turkey</option>
+                            <option value = "TMT" data-isoCode = "TKM">TMT - Turkmenistan</option>
+                            <option value = "USD" data-isoCode = "TCA">USD - Turks and Caicos Islands</option>
+                            <option value = "AUD" data-isoCode = "TUV">AUD - Tuvalu</option>
+                            <option value = "USD" data-isoCode = "VIR">USD - U.S. Virgin Islands</option>
+                            <option value = "UGX" data-isoCode = "UGA">UGX - Uganda</option>
+                            <option value = "UAH" data-isoCode = "UKR">UAH - Ukraine</option>
+                            <option value = "AED" data-isoCode = "ARE">AED - United Arab Emirates</option>
+                            <option value = "GBP" data-isoCode = "GBR">GBP - United Kingdom</option>
+                            <option value = "USD" data-isoCode = "USA">USD - United States</option>
+                            <option value = "UYU" data-isoCode = "URY">UYU - Uruguay</option>
+                            <option value = "UZS" data-isoCode = "UZB">UZS - Uzbekistan</option>
+                            <option value = "VUV" data-isoCode = "VUT">VUV - Vanuatu</option>
+                            <option value = "EUR" data-isoCode = "VAT">EUR - Vatican City</option>
+                            <option value = "VEF" data-isoCode = "VEN">VEF - Venezuela</option>
+                            <option value = "VND" data-isoCode = "VNM">VND - Vietnam</option>
+                            <option value = "XPF" data-isoCode = "WLF">XPF - Wallis and Futuna</option>
+                            <option value = "MAD" data-isoCode = "ESH">MAD - Western Sahara</option>
+                            <option value = "YER" data-isoCode = "YEM">YER - Yemen</option>
+                            <option value = "ZMW" data-isoCode = "ZMB">ZMW - Zambia</option>
+                            <option value = "ZWL" data-isoCode = "ZWE">ZWL - Zimbabwe</option>
+                        </select>
+                    </div>
                 </div>
             </div>
-            <div class="lower-div">
-                <div class="result"> = 
+            <div class="lower-div" id="lower-div">
+                <div class="result" id="result">
+                    <span>Result = </span>
                     <span id="result-area">0</span> 
-                    <span id="currency">US Dollar</span>
+                    <span id="currency">USD</span>
                 </div>
             </div>
         </div>
     </div>
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+    <div class="circle circle4"></div>
+    <div class="circle circle5"></div>
     <!-- <script src="./optionTag.js"></script> -->
-    <script src="./script.js"></script>
+    <script src="./optionTag.js"></script>
 </body>
 </html>
