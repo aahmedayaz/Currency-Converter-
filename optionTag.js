@@ -77,8 +77,8 @@ let generateList2 = async () => {
             currencyCodeArray.push(data);
         })
     } 
-    catch (err) {
-        console.log(err);
+    catch (error) {
+        console.log(error);
     }
 
     keys.forEach((symbol) => {
@@ -110,7 +110,7 @@ let generateList2 = async () => {
 
     let optionTags = '';
     finalArray.forEach((data) => {
-        optionTags +=(`<option value = "${data.currencyCode}" data-isoCode = "${data.isoCode}">${data.currencyCode} - ${data.countryName}</option>\n`)
+        optionTags +=(`<option value = "${data.currencyCode} - ${data.countryName}" data-isoCode = "${data.isoCode}">${data.currencyCode} - ${data.countryName}</option>\n`)
     })
 
     // console.log(optionTags);
